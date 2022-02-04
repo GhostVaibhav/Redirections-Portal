@@ -10,4 +10,4 @@ setTimeout(function() {
     else if (site === "") {
         window.location.replace('https://new.ghostvaibhav.me');
     }
-}, 5000);
+}, 2000);
