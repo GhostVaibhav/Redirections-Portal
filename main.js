@@ -20,11 +20,11 @@ setTimeout(function () {
     const arr = window.location.href.split('/');
     const site = arr[arr.length - 1].slice(1);
     if (site === "old")
-        window.location.replace('https://legacy.ghostvaibhav.tech');
+        window.location.replace('https://legacy.ghostvaibhav.codes');
     else if (site === "blue")
-        window.location.replace('https://blue.ghostvaibhav.tech');
+        window.location.replace('https://blue.ghostvaibhav.codes');
     else if (site === "")
-        window.location.replace('https://new.ghostvaibhav.tech');
+        window.location.replace('https://new.ghostvaibhav.codes');
     else
-        window.location.replace("https://404.ghostvaibhav.tech");
+        window.location.replace("https://404.ghostvaibhav.codes");
 }, 2000);
